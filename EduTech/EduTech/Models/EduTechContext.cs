@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using EduTech.Data;
 
 namespace EduTech.Models
 {
-    public partial class EduTechContext : DbContext
+    public partial class EduTechContext : EduIdentityContext
     {
-        public EduTechContext()
-        {
-        }
-
         public EduTechContext(DbContextOptions<EduTechContext> options)
             : base(options)
         {
@@ -52,6 +51,7 @@ namespace EduTech.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<AuthorGroup>(entity =>
             {
                 entity.HasKey(e => e.GroupId);
