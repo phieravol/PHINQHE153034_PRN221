@@ -1,0 +1,66 @@
+﻿@page
+@model EduTech.Pages.Educator.Courses.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].CourseTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].IsPublic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].TotalLesson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].Duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course[0].CourseTarget)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Course) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPublic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalLesson)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseTarget)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CourseCode">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CourseCode">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CourseCode">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

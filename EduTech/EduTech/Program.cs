@@ -15,9 +15,6 @@ builder.Services.AddDbContext<EduTechContext>(options => options.UseSqlServer(
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 	.AddEntityFrameworkStores<EduTechContext>();
 
-//builder.Services.AddDefaultIdentity<IdentityUser>()
-//	.AddRoles<IdentityRole>();
-
 builder.Services.AddTransient<IDataService, DataService>();
 var app = builder.Build();
 

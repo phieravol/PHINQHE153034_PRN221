@@ -176,6 +176,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Educator/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0b3JcQ291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Educator/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0b3JcQ291cnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Educator/Courses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0b3JcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Educator/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0b3JcQ291cnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Educator/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0b3JcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -186,6 +206,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Manager/Skills/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxTa2lsbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Manager/Skills/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxTa2lsbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Manager/Skills/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxTa2lsbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Manager/Skills/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxTa2lsbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Manager/Skills/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxTa2lsbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/PHINQHE153034_PRN221/EduTech/EduTech/Pages/Privacy.cshtml]
